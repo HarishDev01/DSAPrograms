@@ -9,6 +9,10 @@ public class NodeProgram {
         linkedList.add(5);
         linkedList.add(7);
 
+
+        linkedList.addFirst(10);
+
+        linkedList.delete(2);
        linkedList.printValues();
     }
 }
